@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>
+            Contact Me
+        </title>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZECuBZ1m9zo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p></p>
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" required placeholder="anonymous"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" required placeholder="anonymous">
+            <p></p>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="mail" required placeholder="name@domain.com">
+
+            <p>Would you recommend this?:</p>
+
+        <div>
+            <input type="radio" id="yes" name="this?" value="yes"
+         checked>
+            <label for="yes">Yes</label>
+        </div>
+
+        <div>
+            <input type="radio" id="no" name="this?" value="no">
+            <label for="no">No</label>
+        </div>
+            <p>Favorite Media Source?</p>
+        <div class="custom-select" style="width:200px;">
+    <select>
+            <option value="0">Select Media Source:</option>
+            <option value="1">Apple Music</option>
+            <option value="2">Spotify</option>
+            <option value="3">SoundCloud</option>
+
+        <div class="rating">
+            <p>How Do You Rate Your Media Source?</p>
+            <label for="points">Points (between 0 and 10):</label>
+            <input type="range" id="points" name="points" min="0" max="10">
+          <p></p>
+        </div>
+      <form action="comments">
+        <textarea name="comment" placeholder="Comments" required></textarea>
+        <p></p>
+            <input type="submit">
+      </form>
+          </form>
+    </head>
+</html>
