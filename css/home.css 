@@ -1,0 +1,24 @@
+html{
+    font-family: 'Inconsolata', monospace;
+    
+    
+}
+body{
+    background-image: url(../img/keyboard_pic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+table,
+th,
+td {
+    border: 2px solid white;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 9pt;
+    border-spacing: 0px;
+    vertical-align: top;
+    empty-cells: hide;
+    padding: 0px;
