@@ -22,3 +22,8 @@ td {
     vertical-align: top;
     empty-cells: hide;
     padding: 0px;
+
+.leftside, .rightside {
+    height: 100vh;
+    width:100%;
+}
