@@ -1,0 +1,106 @@
+<html>
+    <body>
+        <h1>Unit Conversion Calculator- Length</h1>
+  
+
+        <form action="Conversion1">
+            <input type="text" id="units" num="input" value="">
+            <select name="units" id="units">
+                <option value="foot">Foot</option>
+                <option value="inch">Inch</option>
+                <option value="meter">Meter</option>
+              </select> =
+              <input type="text2" id="units2" num="input" value="">
+            <select name="units2" id="units2">
+                <option value="foot">Foot</option>
+                <option value="inch">Inch</option>
+                <option value="meter">Meter</option>
+                br><br>
+                
+                      
+        <script>
+function inchesToFeet {
+  var no1 = parseFloat(document.getElementsByName('units')[0].Value);
+    if (InputValue =='foot' && retVal == 'inch')
+          {
+            var ans = (no1*12);
+          }
+          else if (inputValue == 'foot' && retVal == 'meter')
+            {
+              var ans == (no1/3.281);
+            }
+              else if (inputValue == 'inch' && retVal == 'meter')
+                {
+                  var ans = (no1/39.370);
+                }
+                else{
+                  document.write("There is no conversion for this");
+                }
+
+                document.getElementById('result').textContent = ' '+ans;
+}
+document.getElementById("units").innerHTML = inchesToFeet;
+</script>
+            
+               
+        <form action="Conversion1">
+            <input type="text" id="units" num="input" value="">
+            <select name="units" id="units">
+                <option value="foot">Foot</option>
+                <option value="inch">Inch</option>
+                <option value="meter">Meter</option>
+              </select> =
+              <input type="text2" id="units2" num="input" value="">
+            <select name="units2" id="units2">
+                <option value="foot">Foot</option>
+                <option value="inch">Inch</option>
+                <option value="meter">Meter</option>
+                br><br>       
+              
+        
+        
+        
+        </form>
+        <script>
+          function inchesToFeet2 {
+            var no2 = parseFloat(document.getElementsByName('units2')[0].Value);
+              if (InputValue =='foot' && retVal == 'inch')
+                    {
+                      var ans = (no2*12);
+                    }
+                    else if (inputValue == 'foot' && retVal == 'meter')
+                      {
+                        var ans == (no2/3.281);
+                      }
+                        else if (inputValue == 'inch' && retVal == 'meter')
+                          {
+                            var ans = (no2/39.370);
+                          }
+                          else{
+                            document.write("There is no conversion for this");
+                          }
+          
+                          document.getElementById('result').textContent = ' '+ans;
+          
+          document.getElementById("units").innerHTML = inchesToFeet;}
+          </script>
+        
+        
+
+
+
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
